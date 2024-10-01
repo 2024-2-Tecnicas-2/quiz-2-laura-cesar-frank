@@ -17,8 +17,8 @@ public class Lancha extends VehiculoBase{
     }
 
     @Override
-    public Enum tipoCombustible() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public String tipoCombustible() {
+        return super.getTipoCombustible();
     }
     
 }
