@@ -53,7 +53,7 @@ abstract class VehiculoBase implements Vehiculo{
          @Override
          
           public void acelerar (){
-              
+
               this.velocidadActual += 10;
           }
          @Override
