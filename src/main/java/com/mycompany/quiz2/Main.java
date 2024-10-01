@@ -3,8 +3,9 @@ package com.mycompany.quiz2;
 
   public class Main {
     public static void main(String[] args) {
-        Coche coche = new Coche("Toyota", "Corolla","Mazda");
-        Lancha lancha = new Lancha("Yamaha", "Ducati");
+        Coche coche;
+        coche = new Coche("Toyota", "Corolla",);
+        Lancha lancha = new Lancha("Yamaha", "X24X");
 
         coche.acelerar();
         coche.acelerar();
