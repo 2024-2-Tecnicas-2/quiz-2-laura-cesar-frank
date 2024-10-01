@@ -43,8 +43,7 @@ abstract class VehiculoBase implements Vehiculo{
     }
 
           
-          
-          
+           
           public VehiculoBase (String marca,String modelo, int velocidadActual){
               
               this.marca = marca;
