@@ -6,6 +6,9 @@ package com.mycompany.quiz2;
         Coche coche = new Coche("Toyota", "Corolla","Mazda");
         Lancha lancha = new Lancha("Yamaha", "Ducati");
 
+        Coche coche1 = new Coche("Ferrari", "Y502",150);
+        Lancha lancha1 = new Lancha("Turbina", "T15",200);
+
         coche.acelerar();
         coche.acelerar();
         coche.frenar();
