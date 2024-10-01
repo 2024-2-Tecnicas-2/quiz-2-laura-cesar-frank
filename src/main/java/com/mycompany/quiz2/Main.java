@@ -15,10 +15,15 @@ package com.mycompany.quiz2;
         
         lancha.acelerar();
 
-        System.out.println(coche);
+
+        System.out.println("Marca coche: " + coche.getMarca() + ". Modelo coche: " + coche.getModelo());
         System.out.println("Tipo de combustible del coche: " + coche.tipoCombustible());
+        System.out.println("Velocidad actual : " + coche.getVelocidadActual());
+        System.out.println("Acelerar 2 veces");        
+        coche.acelerar(); coche.acelerar();
+        System.out.println("Velocidad actual : " + coche.getVelocidadActual() + "\n");
         
-        System.out.println(lancha);
+        
         System.out.println("Tipo de combustible de la lancha: " + lancha.tipoCombustible());
     }
 }
