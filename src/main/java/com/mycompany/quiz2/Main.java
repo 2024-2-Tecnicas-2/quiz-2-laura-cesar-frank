@@ -32,9 +32,17 @@ package com.mycompany.quiz2;
         System.out.println("Frenar hasta que la velocidad sea menor a 10");
         for(int i = 1; coche.getVelocidadActual() >= 10; i++){
             coche.frenar();
+            
+           System.out.println("Marca de la lancha: " + lancha1.getMarca() + ". Modelo de la lancha: " + lancha1.getModelo());
+        System.out.println("Tipo de combustible lancha : " + lancha1.tipoCombustible());
+        System.out.println("Velocidad actual de la lancha : " + lancha1.getVelocidadActual());
+        System.out.println("Acelerar 2 veces");        
+        coche.acelerar(); lancha1.acelerar();
+        System.out.println("Velocidad actual : " + lancha1.getVelocidadActual() + "\n");
         }
+        
         System.out.println("Velocidad actual coche 1: " + coche.getVelocidadActual() + "\n");
         
-        System.out.println("El Tipo de combustible del Coche 2 : " + lancha.tipoCombustible());
+        System.out.println("El Tipo de combustible del Coche 2 : " + lancha1.tipoCombustible());
     }
 }
