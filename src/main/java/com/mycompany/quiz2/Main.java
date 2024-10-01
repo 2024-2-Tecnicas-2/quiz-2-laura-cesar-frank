@@ -21,13 +21,20 @@ package com.mycompany.quiz2;
         System.out.println("Velocidad actual  coche 1: " + coche.getVelocidadActual());
         System.out.println("Acelerar 2 veces");        
         coche.acelerar(); coche.acelerar();
+        System.out.println("Velocidad actual : " + coche.getVelocidadActual() + "\n");
+
+        System.out.println("Marca coche 1: " + coche1.getMarca() + ". Modelo coche: " + coche1.getModelo());
+        System.out.println("Tipo de combustible del coche 1: " + coche1.tipoCombustible());
+        System.out.println("La Velocidad actual : " + coche1.getVelocidadActual());
+        System.out.println("Acelerar 10 veces");        
+        coche.acelerar(); coche.acelerar();
+        System.out.println("La Velocidad actual : " + coche.getVelocidadActual() + "\n");
         System.out.println("Frenar hasta que la velocidad sea menor a 10");
         for(int i = 1; coche.getVelocidadActual() >= 10; i++){
             coche.frenar();
         }
         System.out.println("Velocidad actual coche 1: " + coche.getVelocidadActual() + "\n");
         
-        
-        System.out.println("Tipo de combustible de la lancha: " + lancha.tipoCombustible());
+        System.out.println("El Tipo de combustible del Coche 1 : " + lancha.tipoCombustible());
     }
 }
