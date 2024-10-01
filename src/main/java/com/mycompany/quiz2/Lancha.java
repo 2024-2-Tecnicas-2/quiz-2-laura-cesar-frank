@@ -2,7 +2,7 @@ package com.mycompany.quiz2;
 
 public class Lancha extends VehiculoBase{
     
-    public Lancha(String marca, String modelo, int velocidadActual) {
+    public Lancha(String marca, String modelo) {
         super(marca, modelo, velocidadActual);
     }
 
