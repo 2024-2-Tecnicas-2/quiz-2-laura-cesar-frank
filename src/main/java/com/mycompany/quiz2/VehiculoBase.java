@@ -1,4 +1,5 @@
 
+
 package com.mycompany.quiz2;
 
 abstract class VehiculoBase implements Vehiculo{
