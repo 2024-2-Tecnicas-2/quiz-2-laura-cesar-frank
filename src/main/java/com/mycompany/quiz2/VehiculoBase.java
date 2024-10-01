@@ -7,6 +7,7 @@ abstract class VehiculoBase implements Vehiculo{
           private String marca;
           private String modelo;
           private int velocidadActual;
+          private String TipoCombustible;
 
           
           
@@ -17,4 +18,17 @@ abstract class VehiculoBase implements Vehiculo{
               this.modelo = modelo;
               this.velocidadActual = velocidadActual;
           }
+         @Override
+         
+          public void acelerar (){
+              
+              this.velocidadActual += 10;
+          }
+         @Override
+         
+         public void frenar (){
+             this.velocidadActual -=10;
+         }
+              
+        
 }
