@@ -2,7 +2,7 @@ package com.mycompany.quiz2;
 
 public class Coche extends VehiculoBase{
     
-    public Coche(String marca) {
+    public Coche(String marca, String modelo, int velocidadActual) {
         super(marca, modelo, velocidadActual);
     }
      @Override
