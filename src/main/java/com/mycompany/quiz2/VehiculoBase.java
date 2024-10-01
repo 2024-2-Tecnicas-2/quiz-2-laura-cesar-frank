@@ -9,6 +9,38 @@ abstract class VehiculoBase implements Vehiculo{
           private int velocidadActual;
           private String TipoCombustible;
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getVelocidadActual() {
+        return velocidadActual;
+    }
+
+    public void setVelocidadActual(int velocidadActual) {
+        this.velocidadActual = velocidadActual;
+    }
+
+    public String getTipoCombustible() {
+        return TipoCombustible;
+    }
+
+    public void setTipoCombustible(String TipoCombustible) {
+        this.TipoCombustible = TipoCombustible;
+    }
+
           
           
           
