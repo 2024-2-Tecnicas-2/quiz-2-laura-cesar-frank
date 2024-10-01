@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.quiz2;
 
-/**
- *
- * @author USUARIO
- */
-public class VehiculoBase implements Vehiculo{
-    
+abstract class VehiculoBase implements Vehiculo{
+            
+            
+          private String marca;
+          private String modelo;
+          private int velocidadActual;
+          private String tipoDeCombustible;
+          
+          
+          
+          public VehiculoBase (String marca,String modelo){
+              
+              this.marca = marca;
+              this.modelo = modelo;
+              this.velocidadActual = 0;
+              
+          }
 }
