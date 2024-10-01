@@ -7,15 +7,14 @@ abstract class VehiculoBase implements Vehiculo{
           private String marca;
           private String modelo;
           private int velocidadActual;
-          private String tipoDeCombustible;
+
           
           
           
-          public VehiculoBase (String marca,String modelo){
+          public VehiculoBase (String marca,String modelo, int velocidadActual){
               
               this.marca = marca;
               this.modelo = modelo;
-              this.velocidadActual = 0;
-              
+              this.velocidadActual = velocidadActual;
           }
 }
